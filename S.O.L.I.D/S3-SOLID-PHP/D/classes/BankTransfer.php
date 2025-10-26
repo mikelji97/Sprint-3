@@ -1,8 +1,7 @@
 <?php 
 
-class BankTransfer
-{
-    public function sendTransfer(float $amount): string
+class BankTransfer implements PaymentMethod {
+    public function sendPayment(float $amount): string
     {
         return "{$amount} bank transfer done";
     }

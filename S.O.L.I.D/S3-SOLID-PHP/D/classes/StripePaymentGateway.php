@@ -1,6 +1,6 @@
 <?php 
 
-class StripePaymentGateway
+class StripePaymentGateway implements PaymentMethod
 {
     public function sendPayment(float $amount): string
     {
