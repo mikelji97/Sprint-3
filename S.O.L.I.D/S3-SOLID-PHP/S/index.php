@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/OlympicGam es.php';
+require_once __DIR__ . '/OlympicGames.php';
 require_once __DIR__ . '/EventsData.php';
 require_once __DIR__ . '/AthletesData.php';
 require_once __DIR__ . '/ResultsData.php';

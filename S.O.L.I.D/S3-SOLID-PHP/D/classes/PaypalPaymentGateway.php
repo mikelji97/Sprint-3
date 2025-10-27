@@ -4,6 +4,6 @@ class PayPalPaymentGateway implements PaymentMethod
 {
     public function sendPayment(float $amount): string
     {
-        return "{$amount} payment processed by Paypal";
+        return "{$amount} euros payment processed by Paypal.";
     }
 }
