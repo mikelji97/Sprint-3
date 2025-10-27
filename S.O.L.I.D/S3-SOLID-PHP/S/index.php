@@ -21,7 +21,15 @@ $resultsData = [
     ['athlete' => 'Michael Phelps', 'event' => 'Swimming', 'medal' => 'Gold']
 ];
 
-$olympics->processOlympicData($athletesData, $eventsData, $resultsData);
+$athletes = new AthletesData();
+$events = new EventsData();
+$results = new ResultsData();
 
+// 3. Insertar los datos en los objetos (Ahora sí funciona)
+$athletes->insertAthletes($athletesData); 
+$events->insertEvents($eventsData);     
+$results->insertResults($resultsData);   
 
+// 4. Pasar los OBJETOS al método
+$olympics->processOlympicData($athletes, $events, $results);
 ?>

@@ -2,7 +2,7 @@
 
 class ResultsData
 {
-    private array $results;
+    private array $results = [];
 
     function insertResults($resultsData)
     {
@@ -13,5 +13,8 @@ class ResultsData
                 'medal' => $result['medal']
             ];
         }
+    }
+    public function getResults(){
+        return $this->results;
     }
 }

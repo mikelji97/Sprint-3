@@ -12,4 +12,7 @@ class EventsData
             ];
         }
     }
+    public function getEvents(){
+        return $this->events;
+    }
 }
