@@ -6,16 +6,16 @@ El punto de partida es un código fuente previamente funcional que debe ser anal
 
 ## Ejercicios por Nivel
 
-### 🎯 Nivel 1
+###  Nivel 1
 
 * **Ejercicio 1:** Refactorización para cumplir con el **Principio de Responsabilidad Única (S)**.
 * **Ejercicio 2:** Refactorización para cumplir con el **Principio de Inversión de Dependencias (D)**.
 
-### 🎯 Nivel 2
+###  Nivel 2
 
 * **Ejercicio 1:** Refactorización para cumplir con el **Principio Abierto/Cerrado (O)**.
 * **Ejercicio 2:** Refactorización para cumplir con el **Principio de Segregación de Interfaces (I)**.
 
-### 🎯 Nivel 3
+###  Nivel 3
 
 * **Ejercicio 1:** Refactorización para cumplir con el **Principio de Sustitución de Liskov (L)**.
